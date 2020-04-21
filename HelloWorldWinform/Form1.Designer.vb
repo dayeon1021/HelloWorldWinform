@@ -27,13 +27,14 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlDark
         Me.Button1.Font = New System.Drawing.Font("나눔스퀘어", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
         Me.Button1.Location = New System.Drawing.Point(42, 24)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(144, 93)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "버튼임"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Form1
         '
